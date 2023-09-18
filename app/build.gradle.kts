@@ -41,6 +41,12 @@ android {
 }
 
 dependencies {
+
+    //coroutine support
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0") //viewModelScope
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.5.0") //liveData
+    implementation ("androidx.room:room-ktx:2.4.0")
+
     //ui
     implementation ("androidx.core:core-ktx:1.8.0")
     implementation ("androidx.appcompat:appcompat:1.4.2")
